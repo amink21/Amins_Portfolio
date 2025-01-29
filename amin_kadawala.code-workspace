@@ -1,0 +1,13 @@
+{
+    "folders": [
+        {
+            "path": "."
+        },
+        {
+            "path": "../Discord_Bot"
+        }
+    ],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "AminK_Portfolio"
+    }
+}
