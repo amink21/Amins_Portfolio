@@ -1,3 +1,17 @@
+function scrollToOutro() {
+  document.querySelector('.intro').scrollIntoView({ behavior: 'smooth' });
+}
+
+function openResume() {
+  const resumeUrl = 'assets/Amin-Kadawala_Resume.pdf';  
+  const link = document.createElement('a');
+  link.href = resumeUrl;
+  link.download = 'My_Resume.pdf';
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+}
+
 gsap.registerPlugin(ScrollTrigger);
 
 ScrollTrigger.create({
